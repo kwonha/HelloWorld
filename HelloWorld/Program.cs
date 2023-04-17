@@ -7,7 +7,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("안녕 세상아");
+            Console.Write("메서드 호출");
+            Console.SetCursorPosition(5, 5);
+            Console.Write("메서드 호출2");
+            Console.SetCursorPosition(0, 0);
+            Console.Write("메서드 호출3");
         }
     }
 }
